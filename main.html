@@ -1,0 +1,55 @@
+<html>
+    <head>
+        <title> GUVI INTRODUCTION </title>
+        <style>
+            .flexContainer {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                gap: 10px;
+                height: 300px;
+            }
+            input {
+                border: none;
+                border-radius: 12px;
+                border: 1px solid darkgrey;
+                padding: 10px;
+            }
+            input:focus {
+                background-color: lightcoral;
+            } 
+            button {
+                border: none;
+                border: 1px solid black;
+                background-color: darkblue;
+                border-radius: 12px;
+                padding: 10px;
+                width: 100px;
+                color: white;
+            }
+            button:hover {
+                background-color: aqua;
+                color: black;
+            }
+        </style>
+    </head>    
+    <body>
+        <div class="flexContainer"> 
+            <div>
+                <input type="text" placeholder="user-name "/>
+            </div> 
+            <small> @gmail.com required</small>
+            <div>
+                <input type="password" placeholder="user-password"/>
+            </div>
+            <small> 6 digits required</small>
+            <div>
+                <button id="btn_login">login </button>
+            </div>
+        </div>
+        <script src ="formvalidation.js"> </script>
+     
+    </body>
+
+</html>
